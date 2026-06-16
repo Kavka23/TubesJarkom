@@ -252,3 +252,9 @@ Parameter yang diukur:
 * Proxy dapat melakukan caching terhadap response dari Web Server.
 * Web Server dapat menangani beberapa koneksi secara bersamaan.
 * Sistem mampu melakukan pengukuran QoS menggunakan UDP Echo.
+
+## Command Prompt
+TES UDP QOS : python client.py --mode udp
+MultiThread 5 client : python client.py ---mode multi --jumlah 5
+Beban Tinggi 20 client : python client.py --mode multi --jumlah 20
+Tes Webserver Dimatikan : pyhton client.py --mode tcp
